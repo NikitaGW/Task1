@@ -1,2 +1,2 @@
 # Task1
-Calculator design using HTML and CSS 
+Calculator using HTML and CSS 
