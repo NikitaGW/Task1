@@ -15,7 +15,7 @@
 }
 
 .calculator {
-    background: rgb(97, 59, 82);
+    background: rgb(9, 8, 9);
     padding: 25px;
     border-radius: 15px;
     text-size-adjust: 20px;
@@ -29,12 +29,16 @@
     height: 70px;
     border-radius: 9px;
     border-color: rgb(143, 127, 127);
-    box-shadow: 1px 1px 10px 1px rgb(242, 235, 208), 1px 1px 5px 1px rgb(162, 159, 145);
+    box-shadow: 1px 1px 1px 1px rgb(242, 235, 208), 1px 1px 5px 1px rgb(162, 159, 145);
     background: transparent;
     font-size: 25px;
     color: #ffffff;
     cursor: pointer;
     margin: 7px;
+}
+
+.calculator form input:hover{
+   box-shadow: none;
 }
 
 form .show {
@@ -52,6 +56,6 @@ form .show input {
 }
 
 form input.final {
-    color: rgb(216, 241, 22);
+    color: rgb(248, 111, 7);
 
 }
